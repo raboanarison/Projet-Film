@@ -2,7 +2,7 @@ package org.HEI.kdot;
 import lombok.Getter;
 
 @Getter
-public enum SubscriptionType {
+public enum  SubscriptionType {
 
     STANDARD(1, 4.99),
     PREMIUM(6, 14.99),
