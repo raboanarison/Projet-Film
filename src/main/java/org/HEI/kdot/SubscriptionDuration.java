@@ -19,4 +19,3 @@ public enum SubscriptionDuration {
         return basePrice - discountAmount;
     }
 }
-

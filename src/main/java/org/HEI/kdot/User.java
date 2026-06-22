@@ -1,15 +1,18 @@
 package org.HEI.kdot;
 
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.util.List;
 
+@Getter
+@Setter
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-public class User extends  Account{
-    private Subcription abonnement;
+public class User extends Account {
+    private List<SubscriptionRecord> subscriptionHistory;
     private List<Playlist> playlists;
+    private List<WatchHistory> watchHistory;
+    private List<String> searchHistory;
 }

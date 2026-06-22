@@ -1,16 +1,14 @@
 package org.HEI.kdot;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 
 import java.time.Instant;
+import java.util.Map;
 
-@Builder
 @Data
 @AllArgsConstructor
-public class Subcription {
+public class ResearchHistory {
     private final int id;
-    private final Instant beganAt;
-    private SubscriptionType subscriptionType;
+    private Map<Instant, String> researchHistory;
 }

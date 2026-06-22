@@ -3,13 +3,13 @@ package org.HEI.kdot;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.List;
+import java.time.Instant;
 
 @Data
 @Builder
-public class Season {
+public class WatchHistory {
     private final int id;
-    private final int seasonNumber;
+    private Movie movie;
     private Show show;
-    private List<Episode> episodes;
+    private final Instant watchedAt;
 }
