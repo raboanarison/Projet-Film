@@ -1,6 +1,7 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.MediaSuggestions;
+import org.HEI.kdot.modele.User;
 
 public class RecommendationService {
     private final MovieService movieService;

@@ -1,6 +1,6 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.*;
 
 import java.time.Instant;
 import java.util.ArrayList;

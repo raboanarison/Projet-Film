@@ -1,6 +1,9 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.Movie;
+import org.HEI.kdot.modele.Playlist;
+import org.HEI.kdot.modele.Show;
+import org.HEI.kdot.modele.User;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.User;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,9 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.Movie;
+import org.HEI.kdot.modele.Show;
+import org.HEI.kdot.modele.User;
+import org.HEI.kdot.modele.WatchHistory;
 
 import java.time.Instant;
 import java.util.ArrayList;

@@ -1,6 +1,8 @@
 package org.HEI.kdot.service;
 
-import org.HEI.kdot.*;
+import org.HEI.kdot.modele.Movie;
+import org.HEI.kdot.modele.SubscriptionRecord;
+import org.HEI.kdot.modele.User;
 
 import java.util.List;
 

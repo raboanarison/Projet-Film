@@ -1,4 +1,4 @@
-package org.HEI.kdot;
+package org.HEI.kdot.modele;
 
 // maybe should rebrand it
 

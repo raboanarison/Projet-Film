@@ -1,4 +1,4 @@
-package org.HEI.kdot;
+package org.HEI.kdot.modele;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;
