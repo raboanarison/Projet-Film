@@ -5,6 +5,8 @@ import lombok.experimental.SuperBuilder;
 
 import java.util.List;
 
+// An user can have many users (Maybe not an user again, let's search another name for it)
+
 @Getter
 @Setter
 @SuperBuilder

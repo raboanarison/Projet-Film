@@ -5,6 +5,8 @@ import lombok.Data;
 
 import java.time.Instant;
 
+// Should add payement method in the attributes, new classes too for that, maybe records who should have attributes
+
 @Data
 @Builder
 public class SubscriptionRecord {

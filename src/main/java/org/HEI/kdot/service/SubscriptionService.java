@@ -55,6 +55,7 @@ public class SubscriptionService {
                 .toList();
     }
 
+    //should  use the Subscription duration, the discount is not used here !!!!
     public double getTotalRevenue() {
         return records.stream()
                 .mapToDouble(r -> r.getSubscription().getSubscriptionDuration()

@@ -6,6 +6,8 @@ import lombok.Data;
 import java.time.Duration;
 import java.util.List;
 
+// We should create an abstract class mother for episode and movie cause they pretty much have same attributes
+
 @Data
 @Builder
 public class Episode {
